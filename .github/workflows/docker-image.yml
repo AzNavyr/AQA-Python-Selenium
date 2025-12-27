@@ -1,0 +1,36 @@
+name: UI Tests (Docker + Selenium)
+
+on:
+  push:
+    branches: [ "master", "dev" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  ui-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Забираем код из репозитория
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Сборка Docker image
+      - name: Build Docker image
+        run: |
+          docker build -t aqa-selenium-tests .
+
+      # 3. Запуск тестов внутри контейнера
+      - name: Run tests in Docker
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/allure-results:/app/allure-results \
+            aqa-selenium-tests
+
+      # 4. Сохранение Allure результатов как артефакта
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results
