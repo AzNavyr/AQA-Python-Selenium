@@ -1,14 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Dec 27 16:50:21 UTC 2025","Sat Dec 27 16:50:21 UTC 2025","469","tests","test_login_page","","","","Login attempt with invalid username or password","
-Verifies that a user cannot log in with invalid credentials.
-
-Steps:
-1. Open the login page.
-2. Enter an invalid username and/or password.
-3. Submit the login form.
-4. Verify that the correct error message is displayed.
-"
-"passed","Sat Dec 27 16:50:27 UTC 2025","Sat Dec 27 16:50:28 UTC 2025","966","tests","test_login_page","","","","Login attempt with locked out user","
+"passed","Sat Dec 27 17:13:07 UTC 2025","Sat Dec 27 17:13:08 UTC 2025","963","tests","test_login_page","","","","Login attempt with locked out user","
 Verifies that a locked out user cannot log in to the system.
 
 Steps:
@@ -17,16 +8,17 @@ Steps:
 3. Submit the login form.
 4. Verify that the appropriate error message is displayed.
 "
-"passed","Sat Dec 27 16:50:29 UTC 2025","Sat Dec 27 16:50:30 UTC 2025","293","tests","test_login_page","","","","Login attempt with empty username and password","
-Verifies that the system prevents login when required fields are empty.
+"passed","Sat Dec 27 17:12:58 UTC 2025","Sat Dec 27 17:12:59 UTC 2025","1100","tests","test_login_page","","","","Login with valid credentials and page validation","
+Verifies that a user with valid credentials can successfully log in and that the login page is loaded correctly.
 
 Steps:
 1. Open the login page.
-2. Leave the username and password fields empty.
-3. Submit the login form.
-4. Verify that the validation error message is displayed.
+2. Verify that the URL is correct and all key elements are visible.
+3. Enter a valid username and password.
+4. Submit the login form.
+5. Verify that the main header 'Swag Labs' is displayed after login.
 "
-"passed","Sat Dec 27 16:50:40 UTC 2025","Sat Dec 27 16:50:46 UTC 2025","6015","tests","test_login_page","","","","Login with performance glitch user","
+"passed","Sat Dec 27 17:13:20 UTC 2025","Sat Dec 27 17:13:26 UTC 2025","6005","tests","test_login_page","","","","Login with performance glitch user","
 Verifies that a user with valid credentials can successfully log in
 even when the page loads with a noticeable delay.
 
@@ -37,36 +29,7 @@ Steps:
 4. Wait for the page to fully load.
 5. Verify that the main header 'Swag Labs' is displayed.
 "
-"passed","Sat Dec 27 16:50:16 UTC 2025","Sat Dec 27 16:50:17 UTC 2025","540","tests","test_login_page","","","","Login with valid credentials and page validation","
-Verifies that a user with valid credentials can successfully log in and that the login page is loaded correctly.
-
-Steps:
-1. Open the login page.
-2. Verify that the URL is correct and all key elements are visible.
-3. Enter a valid username and password.
-4. Submit the login form.
-5. Verify that the main header 'Swag Labs' is displayed after login.
-"
-"passed","Sat Dec 27 16:50:31 UTC 2025","Sat Dec 27 16:50:32 UTC 2025","858","tests","test_login_page","","","","Login attempt with empty username and password","
-Verifies that the system prevents login when required fields are empty.
-
-Steps:
-1. Open the login page.
-2. Leave the username and password fields empty.
-3. Submit the login form.
-4. Verify that the validation error message is displayed.
-"
-"passed","Sat Dec 27 16:50:19 UTC 2025","Sat Dec 27 16:50:20 UTC 2025","984","tests","test_login_page","","","","Login with valid credentials and page validation","
-Verifies that a user with valid credentials can successfully log in and that the login page is loaded correctly.
-
-Steps:
-1. Open the login page.
-2. Verify that the URL is correct and all key elements are visible.
-3. Enter a valid username and password.
-4. Submit the login form.
-5. Verify that the main header 'Swag Labs' is displayed after login.
-"
-"passed","Sat Dec 27 16:50:25 UTC 2025","Sat Dec 27 16:50:26 UTC 2025","467","tests","test_login_page","","","","Login attempt with locked out user","
+"passed","Sat Dec 27 17:13:05 UTC 2025","Sat Dec 27 17:13:05 UTC 2025","550","tests","test_login_page","","","","Login attempt with locked out user","
 Verifies that a locked out user cannot log in to the system.
 
 Steps:
@@ -75,16 +38,16 @@ Steps:
 3. Submit the login form.
 4. Verify that the appropriate error message is displayed.
 "
-"passed","Sat Dec 27 16:50:23 UTC 2025","Sat Dec 27 16:50:24 UTC 2025","813","tests","test_login_page","","","","Login attempt with invalid username or password","
-Verifies that a user cannot log in with invalid credentials.
+"passed","Sat Dec 27 17:13:09 UTC 2025","Sat Dec 27 17:13:09 UTC 2025","299","tests","test_login_page","","","","Login attempt with empty username and password","
+Verifies that the system prevents login when required fields are empty.
 
 Steps:
 1. Open the login page.
-2. Enter an invalid username and/or password.
+2. Leave the username and password fields empty.
 3. Submit the login form.
-4. Verify that the correct error message is displayed.
+4. Verify that the validation error message is displayed.
 "
-"passed","Sat Dec 27 16:50:33 UTC 2025","Sat Dec 27 16:50:39 UTC 2025","5497","tests","test_login_page","","","","Login with performance glitch user","
+"passed","Sat Dec 27 17:13:13 UTC 2025","Sat Dec 27 17:13:19 UTC 2025","5501","tests","test_login_page","","","","Login with performance glitch user","
 Verifies that a user with valid credentials can successfully log in
 even when the page loads with a noticeable delay.
 
@@ -94,4 +57,41 @@ Steps:
 3. Submit the login form.
 4. Wait for the page to fully load.
 5. Verify that the main header 'Swag Labs' is displayed.
+"
+"passed","Sat Dec 27 17:13:03 UTC 2025","Sat Dec 27 17:13:04 UTC 2025","975","tests","test_login_page","","","","Login attempt with invalid username or password","
+Verifies that a user cannot log in with invalid credentials.
+
+Steps:
+1. Open the login page.
+2. Enter an invalid username and/or password.
+3. Submit the login form.
+4. Verify that the correct error message is displayed.
+"
+"passed","Sat Dec 27 17:13:11 UTC 2025","Sat Dec 27 17:13:12 UTC 2025","877","tests","test_login_page","","","","Login attempt with empty username and password","
+Verifies that the system prevents login when required fields are empty.
+
+Steps:
+1. Open the login page.
+2. Leave the username and password fields empty.
+3. Submit the login form.
+4. Verify that the validation error message is displayed.
+"
+"passed","Sat Dec 27 17:13:00 UTC 2025","Sat Dec 27 17:13:01 UTC 2025","465","tests","test_login_page","","","","Login attempt with invalid username or password","
+Verifies that a user cannot log in with invalid credentials.
+
+Steps:
+1. Open the login page.
+2. Enter an invalid username and/or password.
+3. Submit the login form.
+4. Verify that the correct error message is displayed.
+"
+"passed","Sat Dec 27 17:12:55 UTC 2025","Sat Dec 27 17:12:56 UTC 2025","551","tests","test_login_page","","","","Login with valid credentials and page validation","
+Verifies that a user with valid credentials can successfully log in and that the login page is loaded correctly.
+
+Steps:
+1. Open the login page.
+2. Verify that the URL is correct and all key elements are visible.
+3. Enter a valid username and password.
+4. Submit the login form.
+5. Verify that the main header 'Swag Labs' is displayed after login.
 "
