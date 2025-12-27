@@ -1,0 +1,14 @@
+base_url: "https://www.saucedemo.com/"
+timeout: 10
+
+browser:
+  name: "chrome"
+  headless: False
+
+browsers:
+  chrome:
+    name: "chrome"
+    headless: True
+  firefox:
+    name: "firefox"
+    headless: True

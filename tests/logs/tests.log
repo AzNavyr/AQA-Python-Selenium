@@ -1,0 +1,134 @@
+2025-12-26 20:12:09,371 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:12:23,228 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:13:52,682 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:13:55,405 [INFO] tests - <pages.login_page.LoginPage object at 0x0000014133563640>
+2025-12-26 20:14:03,767 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:14:04,529 [INFO] tests - <pages.login_page.LoginPage object at 0x00000141335611E0>
+2025-12-26 20:17:45,895 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:17:48,691 [INFO] tests - <pages.login_page.LoginPage object at 0x000001AA62B3B7F0>
+2025-12-26 20:17:56,936 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:17:59,774 [INFO] tests - <pages.login_page.LoginPage object at 0x000001AA62B39E40>
+2025-12-26 20:20:56,407 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:20:58,542 [INFO] tests - <pages.login_page.LoginPage object at 0x000001A127761DB0>
+2025-12-26 20:21:06,754 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:21:07,935 [INFO] tests - <pages.login_page.LoginPage object at 0x000001A12773A2C0>
+2025-12-26 20:23:40,692 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:23:42,915 [INFO] tests - <pages.login_page.LoginPage object at 0x000001D6A9A71C90>
+2025-12-26 20:24:01,510 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:24:08,601 [INFO] tests - <pages.login_page.LoginPage object at 0x000001D6A9B93B50>
+2025-12-26 20:24:52,148 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:24:54,629 [INFO] tests - <pages.login_page.LoginPage object at 0x00000268BE261CC0>
+2025-12-26 20:25:23,139 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:25:23,993 [INFO] tests - <pages.login_page.LoginPage object at 0x00000268BE383B50>
+2025-12-26 20:27:02,717 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:27:04,546 [INFO] tests - <pages.login_page.LoginPage object at 0x0000022BAC561C90>
+2025-12-26 20:27:32,928 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:27:33,986 [INFO] tests - <pages.login_page.LoginPage object at 0x0000022BAC653B50>
+2025-12-26 20:28:35,509 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:28:50,211 [INFO] tests - <pages.login_page.LoginPage object at 0x000002574AC61CC0>
+2025-12-26 20:28:58,370 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:29:21,199 [INFO] tests - <pages.login_page.LoginPage object at 0x000002574AC61C30>
+2025-12-26 20:33:22,795 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:33:26,242 [INFO] tests - <pages.login_page.LoginPage object at 0x00000280F5C47460>
+2025-12-26 20:33:34,264 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 20:33:41,300 [INFO] tests - <pages.login_page.LoginPage object at 0x00000280F5CA8970>
+2025-12-26 21:16:31,812 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:16:38,447 [INFO] tests - <pages.login_page.LoginPage object at 0x0000023303647310>
+2025-12-26 21:16:46,773 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:16:48,262 [INFO] tests - <pages.login_page.LoginPage object at 0x00000233036AC3A0>
+2025-12-26 21:34:34,947 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:34:37,025 [INFO] tests - <pages.login_page.LoginPage object at 0x0000025A05A69AB0>
+2025-12-26 21:34:45,212 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:34:46,446 [INFO] tests - <pages.login_page.LoginPage object at 0x0000025A0574D900>
+2025-12-26 21:35:05,658 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:35:09,319 [INFO] tests - <pages.login_page.LoginPage object at 0x00000110BF0FA1A0>
+2025-12-26 21:35:17,683 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:35:20,901 [INFO] tests - <pages.login_page.LoginPage object at 0x00000110BF227250>
+2025-12-26 21:39:42,529 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:39:44,526 [INFO] tests - <pages.login_page.LoginPage object at 0x000002202DAFDF60>
+2025-12-26 21:39:52,619 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:39:53,677 [INFO] tests - <pages.login_page.LoginPage object at 0x000002202DBB0A90>
+2025-12-26 21:55:39,808 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:55:54,549 [INFO] tests - <pages.login_page.LoginPage object at 0x000002888EA301C0>
+2025-12-26 21:56:02,804 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:56:50,323 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:57:08,551 [INFO] tests - <pages.login_page.LoginPage object at 0x000001F983330190>
+2025-12-26 21:57:16,730 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 21:57:18,421 [INFO] tests - <pages.login_page.LoginPage object at 0x000001F9833317E0>
+2025-12-26 22:20:39,901 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:20:43,543 [INFO] tests - <pages.login_page.LoginPage object at 0x0000025052A80B80>
+2025-12-26 22:20:51,595 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:20:52,713 [INFO] tests - <pages.login_page.LoginPage object at 0x0000025052A809D0>
+2025-12-26 22:21:03,078 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:21:06,613 [INFO] tests - <pages.login_page.LoginPage object at 0x0000024F7DC80C70>
+2025-12-26 22:21:14,654 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:21:15,188 [INFO] tests - <pages.login_page.LoginPage object at 0x0000024F7DC80AC0>
+2025-12-26 22:23:36,160 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:23:39,891 [INFO] tests - <pages.login_page.LoginPage object at 0x00000208DEF80C10>
+2025-12-26 22:23:48,225 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:23:48,811 [INFO] tests - <pages.login_page.LoginPage object at 0x00000208DF2374F0>
+2025-12-26 22:24:02,398 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:24:06,345 [INFO] tests - <pages.login_page.LoginPage object at 0x000001735BC90BE0>
+2025-12-26 22:24:14,405 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:24:15,190 [INFO] tests - <pages.login_page.LoginPage object at 0x000001735BC91E70>
+2025-12-26 22:24:36,410 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:24:40,718 [INFO] tests - <pages.login_page.LoginPage object at 0x0000012F03980C70>
+2025-12-26 22:24:49,186 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:24:49,895 [INFO] tests - <pages.login_page.LoginPage object at 0x0000012F03C37FA0>
+2025-12-26 22:26:44,394 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:26:48,341 [INFO] tests - <pages.login_page.LoginPage object at 0x0000021C6CE40EB0>
+2025-12-26 22:27:01,467 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:27:02,300 [INFO] tests - <pages.login_page.LoginPage object at 0x0000021C6CE420B0>
+2025-12-26 22:31:19,221 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:31:23,073 [INFO] tests - <pages.login_page.LoginPage object at 0x0000026F14C50EB0>
+2025-12-26 22:31:35,135 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:31:36,070 [INFO] tests - <pages.login_page.LoginPage object at 0x0000026F14C520E0>
+2025-12-26 22:35:43,012 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:35:46,828 [INFO] tests - <pages.login_page.LoginPage object at 0x000001FC4C87CD00>
+2025-12-26 22:36:04,879 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:36:08,636 [INFO] tests - <pages.login_page.LoginPage object at 0x000001B77F47CD00>
+2025-12-26 22:41:04,073 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:42:11,598 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:43:37,101 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:51:04,338 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:51:08,129 [INFO] tests - <pages.login_page.LoginPage object at 0x00000229A377D330>
+2025-12-26 22:51:15,353 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:51:16,105 [INFO] tests - <pages.login_page.LoginPage object at 0x00000229A377E3E0>
+2025-12-26 22:51:32,354 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:51:36,148 [INFO] tests - <pages.login_page.LoginPage object at 0x000001B1E817D2A0>
+2025-12-26 22:51:43,328 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 22:51:44,052 [INFO] tests - <pages.login_page.LoginPage object at 0x000001B1E817E230>
+2025-12-26 23:19:18,015 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:19:28,787 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:25:15,960 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:25:26,451 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:27:09,064 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:27:39,044 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:28:27,358 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:28:37,046 [INFO] tests - Open HomePage: 'https://www.saucedemo.com'
+2025-12-26 23:30:45,476 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:31:34,101 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:37:08,630 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:37:10,760 [INFO] tests - Filling login with out_user
+2025-12-26 23:37:10,877 [INFO] tests - Filling password with sauce
+2025-12-26 23:37:10,956 [INFO] tests - Clicking login button
+2025-12-26 23:37:17,964 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:37:20,458 [INFO] tests - Filling login with out_user
+2025-12-26 23:37:20,543 [INFO] tests - Filling password with sauce
+2025-12-26 23:37:20,560 [INFO] tests - Clicking login button
+2025-12-26 23:37:37,496 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:37:39,544 [INFO] tests - Filling login with standard_user
+2025-12-26 23:37:39,665 [INFO] tests - Filling password with secret_sauce
+2025-12-26 23:37:39,741 [INFO] tests - Clicking login button
+2025-12-26 23:37:46,732 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:37:52,784 [INFO] tests - Filling login with standard_user
+2025-12-26 23:37:52,861 [INFO] tests - Filling password with secret_sauce
+2025-12-26 23:37:52,889 [INFO] tests - Clicking login button
+2025-12-26 23:40:42,609 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:40:45,727 [INFO] tests - Filling login with standard_user
+2025-12-26 23:40:45,840 [INFO] tests - Filling password with secret_sauce
+2025-12-26 23:40:45,924 [INFO] tests - Clicking login button
+2025-12-26 23:40:53,008 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:40:56,822 [INFO] tests - Filling login with standard_user
+2025-12-26 23:40:56,896 [INFO] tests - Filling password with secret_sauce
+2025-12-26 23:40:56,919 [INFO] tests - Clicking login button
