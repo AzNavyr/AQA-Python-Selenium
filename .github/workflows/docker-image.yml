@@ -1,4 +1,4 @@
-name: UI Tests (Docker + Selenium)
+name: UI Tests with Allure Report
 
 on:
   push:
@@ -11,26 +11,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Забираем код из репозитория
+      # 1. Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Сборка Docker image
+      # 2. Build Docker image
       - name: Build Docker image
-        run: |
-          docker build -t aqa-selenium-tests .
+        run: docker build -t aqa-selenium-tests .
 
-      # 3. Запуск тестов внутри контейнера
+      # 3. Run tests in Docker
       - name: Run tests in Docker
         run: |
           docker run --rm \
             -v ${{ github.workspace }}/allure-results:/app/allure-results \
             aqa-selenium-tests
 
-      # 4. Сохранение Allure результатов как артефакта
-      - name: Upload Allure results
+      # 4. Generate Allure HTML
+      - name: Generate Allure report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: simple-elf/allure-report-action@v1.8
         with:
-          name: allure-results
-          path: allure-results
+          allure_results: allure-results
+          allure_report: allure-report
+          keep_reports: 20
+
+      # 5. Deploy to GitHub Pages
+      - name: Deploy Allure report to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-report
