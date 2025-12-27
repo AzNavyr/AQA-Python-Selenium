@@ -7,7 +7,43 @@ from utils.logger import logger
 
 from pages.login_page import LoginPage
 
+@allure.epic("Login Page")
+@allure.feature("Authentication")
+@allure.story("Valid user login with page verification")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.tag("ui", "smoke", "functional")
+@allure.title("Login with valid credentials and page validation")
+@allure.description("""
+Verifies that a user with valid credentials can successfully log in and that the login page is loaded correctly.
 
+Steps:
+1. Open the login page.
+2. Verify that the URL is correct and all key elements are visible.
+3. Enter a valid username and password.
+4. Submit the login form.
+5. Verify that the main header 'Swag Labs' is displayed after login.
+""")
+@pytest.mark.parametrize(
+   "username, password, expected_result",[
+        ("standard_user",
+         "secret_sauce",
+         "Swag Labs"
+         )
+    ]
+)
+def test_login_valid_user(driver, username, password, expected_result):
+    login_page = LoginPage(driver)
+    login_page.open()
+
+    with allure.step("Verify that the login page is loaded correctly"):
+        assert login_page.is_page_opened()
+
+    login_page.fill_the_form("login", username)
+    login_page.fill_the_form("password", password)
+
+    login_page.login_form()
+
+    assert expected_result == login_page.get_header_text()
 
 @allure.epic("Login Page")
 @allure.feature("Authentication")
