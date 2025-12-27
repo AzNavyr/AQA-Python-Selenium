@@ -1,0 +1,4 @@
+2025-12-27 17:13:14,580 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-27 17:13:15,208 [INFO] tests - Filling login with standard_user
+2025-12-27 17:13:15,289 [INFO] tests - Filling password with secret_sauce
+2025-12-27 17:13:15,315 [INFO] tests - Clicking login button
