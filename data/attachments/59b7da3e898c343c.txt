@@ -1,0 +1,4 @@
+2025-12-26 23:42:44,377 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:42:47,111 [INFO] tests - Filling login with locked_out_user
+2025-12-26 23:42:47,220 [INFO] tests - Filling password with secret_sauce
+2025-12-26 23:42:47,253 [INFO] tests - Clicking login button

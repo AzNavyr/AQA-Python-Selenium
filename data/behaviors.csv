@@ -1,0 +1,6 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"Login Page","Authentication","Invalid credentials login","0","0","2","0","0"
+"Login Page","Authentication","Locked user login","0","0","2","0","0"
+"Login Page","Authentication","Empty credentials validation","0","0","2","0","0"
+"Login Page","Authentication","Performance degradation handling","0","0","2","0","0"
+"Login Page","Authentication","Valid user login with page verification","0","0","2","0","0"

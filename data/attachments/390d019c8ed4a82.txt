@@ -1,0 +1,2 @@
+2025-12-26 23:42:51,855 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-26 23:42:53,297 [INFO] tests - Clicking login button
