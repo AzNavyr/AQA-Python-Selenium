@@ -132,3 +132,11 @@
 2025-12-26 23:40:56,822 [INFO] tests - Filling login with standard_user
 2025-12-26 23:40:56,896 [INFO] tests - Filling password with secret_sauce
 2025-12-26 23:40:56,919 [INFO] tests - Clicking login button
+2025-12-27 19:22:22,013 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-27 19:22:25,728 [INFO] tests - Filling login with standard_user
+2025-12-27 19:22:25,842 [INFO] tests - Filling password with secret_sauce
+2025-12-27 19:22:25,923 [INFO] tests - Clicking login button
+2025-12-27 19:22:33,616 [INFO] tests - Open HomePage: 'https://www.saucedemo.com/'
+2025-12-27 19:22:34,346 [INFO] tests - Filling login with standard_user
+2025-12-27 19:22:34,447 [INFO] tests - Filling password with secret_sauce
+2025-12-27 19:22:34,483 [INFO] tests - Clicking login button
