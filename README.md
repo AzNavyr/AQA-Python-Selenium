@@ -6,6 +6,11 @@
 [![Tests Passing](https://img.shields.io/badge/Tests-Passing-brightgreen)]()
 
 
+## 📊 Allure Test Report
+
+🔗 **[Live report:](https://Aznavyr.github.io/AQA-Python-Selenium/)**
+
+
 
 
 # AQA Python Selenium Project / Проект автоматизации AQA на Python и Selenium
